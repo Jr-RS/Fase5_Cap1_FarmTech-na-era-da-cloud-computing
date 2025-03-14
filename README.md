@@ -49,34 +49,8 @@ Os dados utilizados incluem informações sobre a cultura plantada, precipitaç�
 
 ---
 
-## 🛠️ Como executar o código
-
-### 💼 Pré-requisitos
-Antes de rodar o projeto, certifique-se de ter instalado:
-- Python 3.x
-- Jupyter Notebook ou Google Colab
-- Bibliotecas:
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
-  - scikit-learn
-
-Você pode instalar as dependências executando:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
 ### 🚀 Passo a Passo
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu_usuario/repositorio.git
-   ```
-2. Acesse o diretório do projeto:
-   ```bash
-   cd repositorio
-   ```
-3. Abra o notebook no Jupyter ou Google Colab e execute as células de código na sequência.
+Abra o notebook no Jupyter ou Google Colab e execute as células de código na sequência.
 
 ---
 
