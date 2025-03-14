@@ -41,9 +41,7 @@ Os dados utilizados incluem informações sobre a cultura plantada, precipitaç�
 |-- assets/                    # Imagens e logotipos
 |-- data/                      # Base de dados utilizada no projeto
 |   |-- crop_yield.csv         # Arquivo com os dados das safras
-|-- notebooks/                 # Notebooks Jupyter utilizados na análise
-|   |-- NomeCompleto_RM_pbl_fase4.ipynb  # Notebook principal do projeto
-|-- results/                   # Resultados das análises e modelagens
+|-- NomeCompleto_RM_pbl_fase4.ipynb  # Notebook principal do projeto
 |-- README.md                  # Documentação do projeto
 ```
 
