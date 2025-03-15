@@ -38,17 +38,63 @@ Os dados utilizados incluem informações sobre a cultura plantada, precipitaç�
 
 ```
 /
-|-- assets/                    # Imagens e logotipos
-|-- data/                      # Base de dados utilizada no projeto
-|   |-- crop_yield.csv         # Arquivo com os dados das safras
-|-- NomeCompleto_RM_pbl_fase4.ipynb  # Notebook principal do projeto
-|-- README.md                  # Documentação do projeto
+|-- assets/                                 # Imagens, logotipos e anexos
+|   |-- Estimativa - SA (São Paulo).pdf     # Arquivo pdf com as estimativas de preços na AWS
+|   |-- Estimativa - US (N. Virginia).pdf   # Arquivo pdf com as estimativas de preços na AWS
+|-- data/                                   # Base de dados utilizada no projeto
+|   |-- crop_yield.csv                      # Arquivo com os dados das safras
+|-- NomeCompleto_RM_pbl_fase4.ipynb         # Notebook principal do projeto
+|-- README.md                               # Documentação do projeto
 ```
 
 ---
 
 ### 🚀 Passo a Passo
 Abra o notebook no Jupyter ou Google Colab e execute as células de código na sequência.
+
+---
+
+## 📊 Comparação de Custos AWS
+
+Foram realizadas duas estimativas de custos utilizando a AWS Pricing Calculator:
+
+| Serviço | São Paulo (SA) | Virgínia do Norte (US) | Diferença |
+|---------|---------------|------------------------|------------|
+| **EC2 (t4g.micro)** | **US$ 7,83/mês** | **US$ 4,91/mês** | **+59,6% mais caro em SP** |
+| **AWS Lambda (1000 requests)** | **US$ 0,00/mês** | **US$ 0,00/mês** | **Sem custo** |
+| **S3 (50GB)** | **US$ 2,02/mês** | **US$ 1,15/mês** | **+75,7% mais caro em SP** |
+| **Total Mensal** | **US$ 9,85/mês** | **US$ 6,06/mês** | **+62,5% mais caro em SP** |
+| **Total Anual** | **US$ 118,20** | **US$ 72,72** | **US$ 45,48 de diferença** |
+
+---
+
+## 📜 Considerações sobre a LGPD e Armazenamento no Exterior
+
+A **Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)** impõe restrições ao armazenamento e processamento de dados fora do Brasil:
+
+- **Transferência Internacional de Dados** (Art. 33 da LGPD) requer que:
+  - O país de destino tenha proteção de dados equivalente ao Brasil.
+  - Exista contrato garantindo conformidade com a LGPD.
+  - O titular dos dados tenha dado consentimento específico.
+
+### 🏆 Escolha da Melhor Opção para o Projeto
+
+Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD** e à necessidade de acesso rápido aos clientes brasileiros, a **recomendação é hospedar os serviços na AWS São Paulo (sa-east-1)**.
+
+**Justificativa:**
+✔ **Conformidade Legal** – Evita riscos de penalização por descumprimento da LGPD.  
+✔ **Latência Menor** – Hospedagem no Brasil reduz o tempo de resposta dos serviços.  
+✔ **Maior Controle dos Dados** – A AWS no Brasil garante que os dados permaneçam dentro da jurisdição nacional.
+
+💡 **Decisão Final:** Apesar do custo mais alto, a escolha pela **AWS São Paulo (sa-east-1)** é recomendada para evitar riscos regulatórios e melhorar a eficiência operacional.
+
+### ⚙️ Implementação da Infraestrutura
+
+- **Treinamento do Modelo:** Google Colab (evita custo de computação na AWS).
+- **Empacotamento do Projeto:** Docker local.
+- **Hospedagem da API:** AWS EC2 (São Paulo).
+- **Inferências:** AWS Lambda (processamento sob demanda).
+- **Armazenamento dos Dados:** AWS S3 (logs e resultados das inferências).
 
 ---
 
