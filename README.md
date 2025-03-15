@@ -41,6 +41,7 @@ Os dados utilizados incluem informações sobre a cultura plantada, precipitaç�
 |-- assets/                                 # Imagens, logotipos e anexos
 |   |-- Estimativa - SA (São Paulo).pdf     # Arquivo pdf com as estimativas de preços na AWS
 |   |-- Estimativa - US (N. Virginia).pdf   # Arquivo pdf com as estimativas de preços na AWS
+|   |-- logo-fiap.png                       # Logo da FIAP exibido no readme
 |-- data/                                   # Base de dados utilizada no projeto
 |   |-- crop_yield.csv                      # Arquivo com os dados das safras
 |-- NomeCompleto_RM_pbl_fase4.ipynb         # Notebook principal do projeto
@@ -82,11 +83,14 @@ A **Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)** impõe restr
 Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD** e à necessidade de acesso rápido aos clientes brasileiros, a **recomendação é hospedar os serviços na AWS São Paulo (sa-east-1)**.
 
 **Justificativa:**
+
 ✔ **Conformidade Legal** – Evita riscos de penalização por descumprimento da LGPD.  
 ✔ **Latência Menor** – Hospedagem no Brasil reduz o tempo de resposta dos serviços.  
 ✔ **Maior Controle dos Dados** – A AWS no Brasil garante que os dados permaneçam dentro da jurisdição nacional.
 
 💡 **Decisão Final:** Apesar do custo mais alto, a escolha pela **AWS São Paulo (sa-east-1)** é recomendada para evitar riscos regulatórios e melhorar a eficiência operacional.
+
+---
 
 ### ⚙️ Implementação da Infraestrutura
 
