@@ -103,9 +103,10 @@ Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD**
 ---
 
 ### 🎥 Vídeo Demonstrativo
-O vídeo demonstrativo do projeto está disponível no YouTube:
-[Assista aqui](#) *(Atualizar com o link do vídeo)*
-
+O vídeo demonstrativo da entrega 1 do projeto está disponível no YouTube:
+[Assista aqui](https://youtu.be/_DMgZRzlnvg) 
+O vídeo demonstrativo da entrega 2 do projeto está disponível no YouTube:
+[Assista aqui](#) 
 ---
 
 ## 📚 Histórico de Lançamentos
