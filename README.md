@@ -32,6 +32,9 @@ Este projeto foi desenvolvido como parte do curso da FIAP e tem como objetivo an
 
 Os dados utilizados incluem informações sobre a cultura plantada, precipitação, umidade, temperatura e rendimento da safra em toneladas por hectare.
 
+### Acesse o Notebook no Google Colab  
+[📖 Abrir no Google Colab](https://colab.research.google.com/github/Jr-RS/Fase5_Cap1_FarmTech-na-era-da-cloud-computing/blob/main/JuniorSilva_rm559451_pbl_fase5.ipynb)
+
 ---
 
 ## 📚 Estrutura de Pastas
@@ -105,6 +108,7 @@ Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD**
 ### 🎥 Vídeo Demonstrativo
 O vídeo demonstrativo da entrega 1 do projeto está disponível no YouTube:
 [Assista aqui](https://youtu.be/_DMgZRzlnvg) 
+
 O vídeo demonstrativo da entrega 2 do projeto está disponível no YouTube:
 [Assista aqui](#) 
 ---
