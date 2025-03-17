@@ -9,10 +9,10 @@
 # 🌾 Projeto de Previsão de Rendimento de Safra - FarmTech Solutions
 
 ## Nome do projeto
-Fase 4 - Cap 1 - Automação e Inteligência na FarmTech Solutions
+Fase 5 - Cap 1 - FarmTech na era da cloud computing
 
 ## Nome do grupo
-Grupo 44
+Grupo 55
 
 ## 👨‍🎓 Integrantes:
 - [Ana Beatriz Duarte Domingues](https://www.linkedin.com/in/)
@@ -24,16 +24,6 @@ Grupo 44
 - [Lucas Gomes Moreira](https://www.linkedin.com/company/inova-fusca)
 ### Coordenador(a)
 - [André Godoi Chiovato](https://www.linkedin.com/company/inova-fusca)
-
----
-
-## 📝 Descrição
-Este projeto foi desenvolvido como parte do curso da FIAP e tem como objetivo analisar dados de uma fazenda de médio porte para prever o rendimento de safra. Para isso, utilizamos técnicas de análise exploratória de dados (EDA), clusterização para identificação de padrões e anomalias, e modelos de regressão supervisionada para previsão de rendimento.
-
-Os dados utilizados incluem informações sobre a cultura plantada, precipitação, umidade, temperatura e rendimento da safra em toneladas por hectare.
-
-### Acesse o Notebook no Google Colab  
-[📖 Abrir no Google Colab](https://colab.research.google.com/github/Jr-RS/Fase5_Cap1_FarmTech-na-era-da-cloud-computing/blob/main/JuniorSilva_rm559451_pbl_fase5.ipynb)
 
 ---
 
@@ -52,13 +42,18 @@ Os dados utilizados incluem informações sobre a cultura plantada, precipitaç�
 ```
 
 ---
+## ✅ Entrega 1
+### 📝 Descrição
+Este projeto foi desenvolvido como parte do curso da FIAP e tem como objetivo analisar dados de uma fazenda de médio porte para prever o rendimento de safra. Para isso, utilizamos técnicas de análise exploratória de dados (EDA), clusterização para identificação de padrões e anomalias, e modelos de regressão supervisionada para previsão de rendimento.
 
-### 🚀 Passo a Passo
-Abra o notebook no Jupyter ou Google Colab e execute as células de código na sequência.
+Os dados utilizados incluem informações sobre a cultura plantada, precipitação, umidade, temperatura e rendimento da safra em toneladas por hectare.
+
+#### 📌 Acesse o Notebook no Google Colab:  
+[📖 Abrir no Google Colab](https://colab.research.google.com/github/Jr-RS/Fase5_Cap1_FarmTech-na-era-da-cloud-computing/blob/main/JuniorSilva_rm559451_pbl_fase5.ipynb)
 
 ---
-
-## 📊 Comparação de Custos AWS
+## ✅ Entrega 2
+### 📊 Comparação de Custos AWS
 
 Foram realizadas duas estimativas de custos utilizando a AWS Pricing Calculator:
 
@@ -72,7 +67,7 @@ Foram realizadas duas estimativas de custos utilizando a AWS Pricing Calculator:
 
 ---
 
-## 📜 Considerações sobre a LGPD e Armazenamento no Exterior
+### 📜 Considerações sobre a LGPD e Armazenamento no Exterior
 
 A **Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)** impõe restrições ao armazenamento e processamento de dados fora do Brasil:
 
@@ -81,7 +76,7 @@ A **Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)** impõe restr
   - Exista contrato garantindo conformidade com a LGPD.
   - O titular dos dados tenha dado consentimento específico.
 
-### 🏆 Escolha da Melhor Opção para o Projeto
+#### 🏆 Escolha da Melhor Opção para o Projeto
 
 Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD** e à necessidade de acesso rápido aos clientes brasileiros, a **recomendação é hospedar os serviços na AWS São Paulo (sa-east-1)**.
 
@@ -95,7 +90,7 @@ Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD**
 
 ---
 
-### ⚙️ Implementação da Infraestrutura
+#### ⚙️ Implementação da Infraestrutura
 
 - **Treinamento do Modelo:** Google Colab (evita custo de computação na AWS).
 - **Empacotamento do Projeto:** Docker local.
@@ -106,11 +101,12 @@ Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD**
 ---
 
 ### 🎥 Vídeo Demonstrativo
-O vídeo demonstrativo da entrega 1 do projeto está disponível no YouTube:
+- O vídeo demonstrativo da entrega 1 do projeto está disponível no YouTube:
 [Assista aqui](https://youtu.be/_DMgZRzlnvg) 
 
-O vídeo demonstrativo da entrega 2 do projeto está disponível no YouTube:
-[Assista aqui](#) 
+- O vídeo demonstrativo da entrega 2 do projeto está disponível no YouTube:
+[Assista aqui](*)
+
 ---
 
 ## 📚 Histórico de Lançamentos
