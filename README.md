@@ -105,7 +105,7 @@ Embora a hospedagem nos EUA seja mais barata, devido às exigências da **LGPD**
 [Assista aqui](https://youtu.be/_DMgZRzlnvg) 
 
 - O vídeo demonstrativo da entrega 2 do projeto está disponível no YouTube:
-[Assista aqui](*)
+[Assista aqui](https://youtu.be/FfBCI9xJw9s)
 
 ---
 
